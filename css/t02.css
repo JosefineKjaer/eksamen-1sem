@@ -1,5 +1,5 @@
 h1 {
-  font-size: 4em;
+  font-size: 3.3em;
 }
 
 .lottie-player {
@@ -13,7 +13,7 @@ p {
 }
 
 .billedetekst {
-  font-size: 1.1em;
+  font-size: 1.2em;
   grid-column: 1 / span 2;
 }
 
@@ -50,11 +50,6 @@ p {
 }
 
 .wireframe {
-  grid-column: 1 / 2;
-  width: 99vw;
-}
-
-.wireframe {
   grid-column: 1 / span 2;
   width: 90vw;
   margin-left: 5vw;
@@ -63,6 +58,5 @@ p {
 .mobilsite {
   height: 54vw;
   margin-left: 5vw;
-  grid-row: 8;
   grid-column: 1 / span 2;
 }
