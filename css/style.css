@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--headingfont);
+  font-family: var(--menufont);
   color: var(--paragraphcolor);
   text-transform: uppercase;
   margin: 10px;
