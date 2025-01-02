@@ -1,8 +1,5 @@
 h1 {
-  font-size: 3.5em;
-}
-h1 {
-  font-size: 3.5em;
+  font-size: 3em;
 }
 
 .lottie-player {
@@ -25,7 +22,7 @@ p {
 
 .grid img {
   width: 46vw;
-  margin: 2vw;
+  margin: 1vw;
 }
 
 p,
