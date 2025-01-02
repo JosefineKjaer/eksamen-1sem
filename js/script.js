@@ -1,5 +1,15 @@
-// document.querySelector(".image-container").addEventListener("mouseover", Overlay);
+const containers = document.querySelectorAll(".image-container");
 
-// function Overlay() {
-//   document.querySelector(".image-container").classList.add("overlay");
-// }
+containers.forEach((container) => {
+  const overlay = container.querySelector(".overlay");
+
+  // Tilføj 'show'-klassen ved mouseover
+  container.addEventListener("mouseover", () => {
+    overlay.classList.add("show");
+  });
+
+  // Fjern 'show'-klassen ved mouseout
+  container.addEventListener("mouseout", () => {
+    overlay.classList.remove("show");
+  });
+});
