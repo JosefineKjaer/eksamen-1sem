@@ -22,8 +22,9 @@ p {
   grid-gap: 20px;
 }
 
-.grid img {
-  width: 50vw;
+.grid-øvelse1,
+.grid-øvelse2 {
+  width: 45vw;
 }
 
 .overskrift1 {
@@ -32,13 +33,33 @@ p {
 
 .grid p:first-of-type {
   grid-row: 2;
-  grid-column: 1 / span 2;
+  grid-column: 1 /2;
 }
 
 .no1 {
-  grid-column: 1 / span 2;
+  grid-column: 1 / 2;
 }
 
 .overskrift2 {
-  grid-column: 1 / span 2;
+  grid-column: 1 / 2;
+}
+
+.brødtekst {
+  grid-column: 1 / 2;
+}
+
+.wireframe {
+  grid-column: 1 / 2;
+  width: 99vw;
+}
+
+.wireframe {
+  grid-column: 1 / 2;
+  width: 99vw;
+}
+
+.mobilsite {
+  height: 60vw;
+  grid-row: 8;
+  grid-column: 1 / 2;
 }
