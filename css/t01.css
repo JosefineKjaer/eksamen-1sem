@@ -1,0 +1,25 @@
+.lottie-player {
+  padding-bottom: 100px;
+}
+
+p {
+  margin: 10px;
+  margin-top: 0;
+  /* padding-bottom: 20px; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.kort {
+  width: 95vw;
+}
+
+.formel1 {
+  width: 95vw;
+  height: 54vw;
+  margin: 10px;
+}
