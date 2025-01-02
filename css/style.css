@@ -86,6 +86,10 @@ header {
   width: 30px;
 }
 
+#logo img:hover {
+  width: 32px;
+}
+
 nav ul {
   display: flex;
   justify-content: space-evenly;

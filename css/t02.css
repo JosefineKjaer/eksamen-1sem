@@ -14,17 +14,22 @@ p {
 
 .billedetekst {
   font-size: 1.1em;
+  grid-column: 1 / span 2;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
 
-.grid-øvelse1,
-.grid-øvelse2 {
+.grid-øvelse1 {
   width: 45vw;
+}
+
+.grid-øvelse2 {
+  width: 40vw;
+  margin: 10px;
 }
 
 .overskrift1 {
@@ -33,19 +38,15 @@ p {
 
 .grid p:first-of-type {
   grid-row: 2;
-  grid-column: 1 /2;
-}
-
-.no1 {
-  grid-column: 1 / 2;
+  grid-column: 1 / span 2;
 }
 
 .overskrift2 {
-  grid-column: 1 / 2;
+  grid-column: 1 / span 2;
 }
 
 .brødtekst {
-  grid-column: 1 / 2;
+  grid-column: 1 / span 2;
 }
 
 .wireframe {
@@ -54,12 +55,14 @@ p {
 }
 
 .wireframe {
-  grid-column: 1 / 2;
-  width: 99vw;
+  grid-column: 1 / span 2;
+  width: 90vw;
+  margin-left: 5vw;
 }
 
 .mobilsite {
-  height: 60vw;
+  height: 54vw;
+  margin-left: 5vw;
   grid-row: 8;
-  grid-column: 1 / 2;
+  grid-column: 1 / span 2;
 }
