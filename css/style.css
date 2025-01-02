@@ -76,6 +76,8 @@ header {
   width: 100%;
 }
 
+/* MENU */
+
 #logo {
   display: flex;
   justify-content: center;
@@ -124,6 +126,7 @@ nav ul li a:hover {
   margin-top: -449px;
 }
 
+/* LOTTIE */
 .lottie-player {
   width: 100vw;
 }
