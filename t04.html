@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/t04.css" />
+    <title>T04 - Grundlæggende animation</title>
+    <script
+  src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+  type="module"
+></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <ul>
+          <li><a href="om-mig.html">Om mig</a></li>
+          <li id="logo"><a href="index.html"><img src="imgs/forside/logo2.png" alt="logo"></li>
+          <li><a href="portfolio-overblik.html">Portfolio</a></li>
+        </ul>
+      </nav>
+      <h1>Grundlæggende <br>animation</h1>
+      <div class="header-background"></div>
+    </header>
+
+    <main>
+      <img id="abstrakt" src="imgs/generelt/abstrakt.png" alt="abstrakt bølget overgang mellem header og side">
+      <dotlottie-player
+      class="lottie-player"
+      src="https://lottie.host/8e44a0c3-c090-4224-8cbe-de93e27ca987/QDSY6MwCxI.lottie"
+      background="transparent"
+      speed="1"
+      loop
+      autoplay
+    ></dotlottie-player>
+   
+    </main>
+
+    <footer>
+      <a href="#header">Tilbage til toppen</a>
+    </footer>
+  </body>
+</html>
