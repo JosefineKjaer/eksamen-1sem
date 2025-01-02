@@ -1,3 +1,26 @@
 h1 {
   font-size: 3.5em;
 }
+
+.lottie-player {
+  padding-bottom: 100px;
+}
+
+p {
+  margin: 10px;
+}
+
+.billedetekst {
+  font-size: 1em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 90vw;
+  margin-left: 5vw;
+}
