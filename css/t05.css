@@ -46,3 +46,8 @@ p,
 h2 {
   grid-column: 1 / span 2;
 }
+
+.img4,
+.img5 {
+  width: 46vw;
+}
