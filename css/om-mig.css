@@ -42,32 +42,70 @@ p {
   top: -80px;
 }
 
-/* .overlap {
-  position: relative;
-  grid-column: 1 / span 3;
-  grid-row: 4;
+@media (width > 620px) {
+  .om-mig {
+    grid-column: 1 / 3;
+    max-width: 737px;
+  }
+
+  .billede1,
+  .billede2 {
+    grid-column: 2 / span 2;
+    position: relative;
+  }
+
+  .billede1 {
+    left: 85px;
+    width: 50vw;
+  }
+  .billede2 {
+    left: -80px;
+    top: -147px;
+    width: 45vw;
+  }
 }
 
-.billede1,
-.billede2 {
-  position: absolute;
-  width: 50%;
+@media (width > 945px) {
+  .billede1 {
+    grid-column: 3 / 4;
+    left: 0;
+    top: 340px;
+    width: 35vw;
+    margin-right: 10px;
+  }
+
+  .billede2 {
+    grid-column: 2 / 3;
+    left: 83px;
+    top: -1px;
+    width: 30vw;
+  }
 }
 
-.billede1 {
-  left: 200px;
+@media (width > 1230px) {
+  .billede1 {
+    top: 240px;
+    width: 35vw;
+    max-width: 35vw;
+    margin-right: 30px;
+  }
+
+  .billede2 {
+    left: 111px;
+    top: -58px;
+    width: 30vw;
+    max-width: 30vw;
+  }
 }
 
-.billede2 {
-  top: 100px;
-} */
+@media (width > 1520px) {
+  .billede1 {
+    top: 70px;
+    margin-right: 80px;
+  }
 
-/* .grid img:first-of-type {
-  grid-row: 3;
-  grid-column: 2 / 4;
+  .billede2 {
+    left: 111px;
+    top: -261px;
+  }
 }
-
-img {
-  width: 43vw;
-  margin: 10px;
-} */

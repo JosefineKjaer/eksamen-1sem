@@ -177,7 +177,9 @@ footer a:hover {
     height: 45vh;
     margin-top: -449px;
   }
+}
 
+@media (width > 700px) {
   h1 {
     font-size: 6em;
   }
