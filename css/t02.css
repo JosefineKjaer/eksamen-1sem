@@ -65,3 +65,9 @@ p {
   /* text-decoration: none; */
   color: #340404;
 }
+
+@media (width >1200px) {
+  h1 {
+    font-size: 6em;
+  }
+}

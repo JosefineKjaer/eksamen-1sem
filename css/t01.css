@@ -23,3 +23,9 @@ p {
   height: 54vw;
   margin: 10px;
 }
+
+@media (width >1200px) {
+  h1 {
+    font-size: 6em;
+  }
+}
