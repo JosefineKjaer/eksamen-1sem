@@ -144,8 +144,8 @@ footer {
 
 .knap {
   background-color: #cedcbc;
-  border-radius: 10px;
-  padding-left: 14px;
+  border-radius: 20px;
+  padding-left: 10px;
   padding-right: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
@@ -161,3 +161,12 @@ footer a {
 footer a:hover {
   color: var(--paragraphcolor);
 }
+
+/* .knap-link {
+  background-color: #fff8f3;
+  border-radius: 20px;
+  padding: 8px;
+  text-align: center;
+  color: #340404;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+} */

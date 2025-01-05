@@ -56,3 +56,12 @@ p {
   margin-left: 5vw;
   grid-column: 1 / span 2;
 }
+
+.knap-link {
+  background-color: #fff8f3;
+  border-radius: 20px;
+  padding: 8px;
+  text-align: center;
+  /* text-decoration: none; */
+  color: #340404;
+}
