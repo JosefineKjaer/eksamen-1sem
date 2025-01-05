@@ -16,6 +16,7 @@ p {
 
 .kort {
   width: 95vw;
+  margin-left: 10px;
 }
 
 .formel1 {
@@ -24,8 +25,67 @@ p {
   margin: 10px;
 }
 
+@media (width >500px) {
+  .lottie-player {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+@media (width >600px) {
+  p {
+    max-width: 500px;
+  }
+  .kort {
+    max-width: 500px;
+  }
+}
+
+@media (width >800px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+  }
+
+  .lottie-player,
+  h2 {
+    grid-column: 1 / span 3;
+  }
+
+  p {
+    grid-column: 1 / span 2;
+  }
+
+  .kort {
+    grid-row: 4;
+    grid-column: 2 / span 2;
+  }
+
+  .formel1 {
+    width: 500px;
+    height: 280px;
+    grid-row: 7;
+    grid-column: 2 / span 2;
+  }
+}
+
+@media (width >1000px) {
+  .lottie-player {
+    width: 600px;
+    margin: auto;
+  }
+  .kort {
+    max-width: 650px;
+  }
+}
+
 @media (width >1200px) {
-  h1 {
-    font-size: 6em;
+  .grid {
+    margin: 50px;
+  }
+
+  .formel1 {
+    width: 650px;
+    height: 366px;
   }
 }

@@ -25,11 +25,13 @@ p {
 
 .grid-øvelse1 {
   width: 45vw;
+  margin: auto;
 }
 
 .grid-øvelse2 {
   width: 40vw;
-  margin: 10px;
+  margin: auto;
+  /* margin: 10px; */
 }
 
 h2 {
@@ -66,8 +68,64 @@ p {
   color: #340404;
 }
 
-@media (width >1200px) {
+@media (width >500px) {
+  .lottie-player {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+@media (width >600px) {
+  p {
+    max-width: 500px;
+  }
+}
+
+@media (width >800px) {
   h1 {
     font-size: 6em;
+  }
+  .grid {
+    margin: 20px;
+  }
+  .wireframe {
+    max-width: 756px;
+    margin: auto;
+  }
+
+  .mobilsite {
+    max-height: 457px;
+    margin: auto;
+  }
+
+  .studieprøve {
+    grid-column: 2/3;
+  }
+
+  .billedetekst {
+    grid-column: 1 / span 2;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .grid-øvelse1 {
+    max-width: 387px;
+  }
+
+  .grid-øvelse2 {
+    max-width: 370px;
+  }
+}
+
+@media (width >1000px) {
+  .lottie-player {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+@media (width >1200px) {
+  .grid {
+    margin: 50px;
   }
 }
