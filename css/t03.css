@@ -43,7 +43,6 @@ p {
     font-size: 6em;
   }
   .grid {
-    /* grid-template-columns: repeat(3, 1fr); */
     margin: 20px;
   }
 }
