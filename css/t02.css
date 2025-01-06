@@ -65,12 +65,7 @@ p {
 }
 
 .knap-link {
-  background-color: #fff8f3;
-  border-radius: 20px;
-  padding: 8px;
-  text-align: center;
-  /* text-decoration: none; */
-  color: #340404;
+  grid-column: 1 / span 2;
 }
 
 @media (width >500px) {
@@ -96,6 +91,12 @@ p {
   .grid {
     margin: 20px;
   }
+
+  .knap-link {
+    grid-row: 6;
+    grid-column: 1 /2;
+  }
+
   .wireframe {
     max-width: 756px;
     margin: auto;

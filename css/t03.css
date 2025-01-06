@@ -53,6 +53,13 @@ p {
     margin: auto;
   }
 
+  .knap-link {
+    grid-row: 3;
+    grid-column: 2 / 3;
+    position: relative;
+    top: 314px;
+  }
+
   .grid {
     grid-template-columns: 1fr 1fr;
   }

@@ -162,14 +162,15 @@ footer a:hover {
   color: var(--paragraphcolor);
 }
 
-/* .knap-link {
+.knap-link {
   background-color: #fff8f3;
-  border-radius: 20px;
-  padding: 8px;
+  border-radius: 40px;
+  padding: 20px;
   text-align: center;
   color: #340404;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-} */
+  margin: auto;
+}
 
 /* @media (width >1200px) {
   #abstrakt {
