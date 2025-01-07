@@ -131,6 +131,7 @@ p {
     width: 600px;
     margin: auto;
   }
+
   .grid {
     margin: 70px;
   }
@@ -140,6 +141,10 @@ p {
   .grid {
     margin-left: 10vw;
     margin-right: 10vw;
+  }
+
+  .design {
+    padding-top: 20px;
   }
 }
 

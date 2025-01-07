@@ -170,6 +170,8 @@ footer a:hover {
 
 .knap-link {
   background-color: #fff8f3;
+  font-size: 1.2em;
+  font-family: var(--menufont);
   border-radius: 40px;
   padding: 20px;
   text-align: center;
