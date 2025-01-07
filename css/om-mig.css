@@ -196,12 +196,12 @@ h3 {
 
 @media (width > 1520px) {
   .billede1 {
-    top: 70px;
+    top: 300px;
     margin-right: 80px;
   }
 
   .billede2 {
     left: 111px;
-    top: -261px;
+    top: -61px;
   }
 }
