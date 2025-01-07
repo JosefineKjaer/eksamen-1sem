@@ -7,6 +7,7 @@
 h3 {
   text-align: center;
   padding-top: 40px;
+  font-size: 2.5em;
 }
 
 p {
@@ -41,7 +42,7 @@ p {
   justify-content: center;
   align-items: center;
   transition: opacity 0.3s ease;
-  font-size: 1.2em;
+  font-size: 1.6em;
   text-align: center;
   pointer-events: none;
   text-transform: uppercase;
@@ -97,7 +98,7 @@ p {
   }
 
   .overlay {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .grid {
@@ -119,7 +120,7 @@ p {
   }
 
   .overlay {
-    font-size: 1.2em;
+    font-size: 2.2em;
   }
 }
 
