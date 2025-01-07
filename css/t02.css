@@ -66,6 +66,7 @@ p {
 
 .knap-link {
   grid-column: 1 / span 2;
+  margin-bottom: 30px;
 }
 
 @media (width >500px) {

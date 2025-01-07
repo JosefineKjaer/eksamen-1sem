@@ -63,6 +63,7 @@ h2,
 .knap-link {
   grid-column: 1 / span 2;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .passion {
