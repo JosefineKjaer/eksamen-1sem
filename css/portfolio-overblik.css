@@ -49,13 +49,10 @@ p {
 }
 .overlay h3 {
   padding-top: 0;
+  color: #fff8f3;
 }
 .show {
   opacity: 1;
-}
-
-.overlay h3 {
-  color: #fff8f3;
 }
 
 #abstrakt {

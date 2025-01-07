@@ -1,3 +1,30 @@
-h1 {
+body {
+  background-color: var(--secondary);
+}
+
+.skjult {
   color: var(--secondary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid img {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  max-width: 100vw;
+  margin-top: -9px;
+  z-index: 0;
+}
+
+.navn {
+  margin: auto;
+  max-width: 100vw;
+  grid-row: 1;
+  /* margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0px; */
+  z-index: 1;
 }
